@@ -17,7 +17,7 @@ Protocols I choose to analyze:
 Observation:
 - When I tried to ping the Website, ICMP packet was captured by the Wireshark Network Analyzer, which shows the footprint.
 - The main protocol in every network has DNS, where in it provided me the source and destination address for which the packet was sent.
-- When I searched in chrome, I found http packet with HTTP Response 200 OK Success, where in the server responded for the SYN packet.
+- When I searched in chrome, I found http packet with HTTP Response 200 OK Success, where in the server responded for the GET Request packet.
 
 
 
