@@ -1,0 +1,23 @@
+Task- Analyzing the captured Network traffic using Wireshark Tool.
+Tools- Wireshark, Cmd Prompt.
+Procedure
+Step-1: Opened Wireshark application and double clicked on WIfI as I am connected to the Wireless Network.
+Step-2: Capture of packets in the Network started.
+Step-3: Opened Chrome and search for website www.chatgpt.com
+Step-4: Tried to ping the chatgpt website in Cmd Prompt.
+Step-5: Stopped the network packet capture.
+Step-6: Saved the capture with Name Packet Capture with file extension .pcap as an evidence.
+Step-7: Checked for the protocols captured within this session.
+
+Protocols I choose to analyze:
+1) Http: Helps to see which websites or servers the client accessed and the response received from Server.
+2) ICMP: To check for the latency in the response and identify reasons for unreachable hosts.
+3) DNS: To see which websites or servers were visited.
+
+Observation:
+- When I tried to ping the Website, ICMP packet was captured by the Wireshark Network Analyzer, which shows the footprint.
+- The main protocol in every network has DNS, where in it provided me the source and destination address for which the packet was sent.
+- When I searched in chrome, I found http packet with HTTP Response 200 OK Success, where in the server responded for the SYN packet.
+
+
+
